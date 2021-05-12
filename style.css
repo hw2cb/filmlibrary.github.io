@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Roboto-Bold;            
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face{
+    font-family: Roboto-Light;
+    src:url(fonts/Roboto-Light.ttf)
+}
+
+dialog{
+    background: #CFE4E5;
+}
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+ul{
+    margin: 0;
+    padding:0;
+
+}
+ul li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: #4A4A49;
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    display: block;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    background-color: #FFE8D6;
+}
+h1{
+    margin: 30px 0px 0px 0px;
+    font-size: 48px;
+    color: #CB997E;
+    font-family: Roboto-Bold;
+    text-align: center;
+}
+h2{
+    font-size: 36px;
+    font-family: Roboto-Bold;
+    color: #4A4A49;
+    margin: 0;
+}
+.content{
+    margin: 45px 250px 200px 250px;
+}
+.title{
+    display: flex;
+    justify-content:space-between;
+}
+.settings-filter{
+    align-self: center;
+}
+.button{
+    text-align: center;
+    margin-top: 50px;
+}
+.button-add{
+    padding: 20px 25px;
+    background-color: #CB997E;
+    display: inline;
+}
+.content-films{
+    display: flex;
+    flex-wrap: wrap;
+}
+.film{
+    margin: 25px;
+    min-width: 200px;
+    background-color: #B7B7A4;
+    font-family: Roboto-Bold;
+    padding: 15px;
+}
+.name-film{
+    font-size: 24px;
+    color: #4A4A49;
+}
+.info-films{
+    font-size:18px;
+    color: #6B705C;
+}
+
+h3{
+    font-size: 36px;
+    font-family: Roboto-Bold;
+    color: #4A4A49;
+    margin: 0;
+}
+.wrapper-add-films{
+    margin-top: 50px;
+    display: none;
+}
+.forms-add{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.name-form{
+    font-family: Roboto-Bold;
+    font-size: 24px;
+    color: #6B705C;
+    margin-bottom: 15px;
+}
+.form{
+    background-color: #B7B7A4;
+    border: none;
+    width: 360px;
+    height: 32px;
+    font-family: Roboto-Bold;
+    font-size:24px;
+    outline:none;
+}
+.forma{
+    margin-top: 22px;
+}
+.validate{
+    display: none;
+    font-size: 24px;
+    font-family: Roboto-Bold;
+    color: red;
+}

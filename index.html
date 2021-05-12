@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class ="header">
+        <div class="header-inner">
+            <h1>Фильмотека</h1>
+        </div>
+    </header>
+    <div class="content">
+        <div class="title">
+            <div class="head-title">
+                <h2>Мои фильмы:</h2>
+            </div>
+        </div>
+        <div class="content-films" id="before">
+        </div>
+        <div class="button">
+            <a class="button-add" id = "btn-add-now" onclick="showAddFilms()" href="#">Добавить еще</a>
+        </div>
+        <div class="wrapper-add-films" id="show-add-films">
+            <div class="title">
+                <h3>Добавление фильма:</h3>
+            </div>
+            <div class="validate" id = "empty-valid">Поля не должны быть пустыми</div>
+            <div class="forms-add">
+                <div class="forms-left">
+                    <div class="forma">
+                        <div class="name-form">Название фильма:</div>
+                        <input class="form" type="text" name="" id="name-film">
+                    </div>
+                    <div class="forma">
+                        <div class="name-form">Жанр:</div>
+                        <input class="form" type="text" name="" id="genre">
+                    </div>
+                    <div class="forma">
+                        <div class="name-form">Сценарий:</div>
+                        <input class="form" type="text" name="" id="scenario">
+                    </div>
+                    <div class="forma">
+                        <div class="name-form">Оператор:</div>
+                        <input class="form" type="text" name="" id="operator">
+                    </div>
+                    <div class="forma">
+                        <div class="name-form">Бюджет:</div>
+                        <input class="form" type="text" name="" id="budget">
+                    </div>
+                    <div class="validate" id="validate-budget">
+                        Поле не может содержать букв или быть пустым
+                    </div>
+                    <div class="forma">
+                        <div class="name-form">Рейтинг по возрасту:</div>
+                        <input class="form" type="text" name="" id="rate">
+                    </div>
+                    <div class="validate" id="validate-rate">
+                        Поле не может содержать букв или быть пустым
+                    </div>
+                    <div class="forma">
+                        <div class="name-form">Дата выхода:</div>
+                        <input class="form" type="date" name="" id="date">
+                    </div>
+                </div>
+                <div class="forms-right">
+                    <div class="forma">
+                        <div class="name-form">Страна:</div>
+                        <input class="form" type="text" name="" id="country">
+                    </div>
+                    <div class="forma">
+                        <div class="name-form">Режиссёр:</div>
+                        <input class="form" type="text" name="" id="director">
+                    </div>
+                    <div class="forma">
+                        <div class="name-form">Продюсер:</div>
+                        <input class="form" type="text" name="" id="producer">
+                    </div>
+                    <div class="forma">
+                        <div class="name-form">Композитор:</div>
+                        <input class="form" type="text" name="" id="composer">
+                    </div>
+                    <div class="forma">
+                        <div class="name-form">Мировые сборы в рублях:</div>
+                        <input class="form" type="text" name="" id="money">
+                    </div>
+                    <div class="validate" id="validate-money">
+                        Поле не может содержать букв или быть пустым
+                    </div>
+                    <div class="forma">
+                        <div class="name-form">Длительность в минутах:</div>
+                        <input class="form" type="text" name="" id="length">
+                    </div>
+                    <div class="validate" id="validate-length">
+                        Поле не может содержать букв или быть пустым
+                    </div>
+                </div>
+
+            </div>
+            <div class="button">
+                <a class="button-add" onclick="createFilm()" href="#">Добавить</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+    <script src="validate.js"></script>
+</body>
+</html>
